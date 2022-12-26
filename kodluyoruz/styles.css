@@ -1,0 +1,37 @@
+
+    /* Add some styling for the navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: lightgrey;
+      padding: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+      padding: 10px;
+    }
+
+    nav a:hover {
+      background-color: lightblue;
+    }
+
+    /* Add some styling for the product images */
+    .product-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px;
+    }
+
+    .product-images img {
+      width: 30%;
+      height: auto;
+      object-fit: cover;
+      border: 1px solid grey;
+      margin: 10px;
+    }
